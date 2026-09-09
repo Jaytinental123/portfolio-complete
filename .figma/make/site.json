@@ -1,0 +1,11 @@
+{
+  "title": "My porfolio...",
+  "description": "Track and visualize project progress by cloning GitHub repositories, enabling users to monitor development milestones and collaborate effectively.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
