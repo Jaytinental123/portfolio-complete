@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://joyomowaye.com/sitemap.xml
