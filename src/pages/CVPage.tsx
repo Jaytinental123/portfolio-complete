@@ -52,7 +52,7 @@ export default function CVPage() {
             <a href={profile.linkedin} target="_blank" rel="noopener">LinkedIn ↗</a>
             <a href={profile.behance} target="_blank" rel="noopener">Behance ↗</a>
             <a href={profile.youtube} target="_blank" rel="noopener">YouTube ↗</a>
-            <a href="#/work">Portfolio ↗</a>
+            <a href="/work/">Portfolio ↗</a>
           </div>
 
           <div style={{ marginTop: 20, display: "flex", flexDirection: "column", gap: 8 }}>
@@ -306,7 +306,7 @@ export default function CVPage() {
               ))}
             </div>
             <p style={{ marginTop: 16 }}>
-              <a href="#/work" className="text-link">View full portfolio →</a>
+              <a href="/work/" className="text-link">View full portfolio →</a>
             </p>
           </section>
         </div>

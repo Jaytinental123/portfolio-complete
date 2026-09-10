@@ -71,11 +71,11 @@ export default function AboutPage() {
 
           <h2>Let&apos;s connect</h2>
           <p>
-            <a href="#/contact" className="text-link">
+            <a href="/contact/" className="text-link">
               Send me an email
             </a>{" "}
             or view my{" "}
-            <a href="#/cv" className="text-link">
+            <a href="/cv/" className="text-link">
               full CV
             </a>
             .

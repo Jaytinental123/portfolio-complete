@@ -28,7 +28,7 @@ export default function CaseStudyPage({ slug }: { slug: string }) {
   if (!project || project.tier !== "case") {
     return (
       <div className="container case-hero" data-reveal="fade-up">
-        <a href="#/work" className="back-link">
+        <a href="/work/" className="back-link">
           ← All work
         </a>
         <h1>Case study coming soon</h1>
@@ -45,7 +45,7 @@ export default function CaseStudyPage({ slug }: { slug: string }) {
   return (
     <>
       <div className="container case-hero">
-        <a href="#/work" className="back-link" data-reveal="fade-up">
+        <a href="/work/" className="back-link" data-reveal="fade-up">
           ← All work
         </a>
         <p className="eyebrow" data-reveal="fade-up" data-delay="1">{project.category}</p>
@@ -148,7 +148,7 @@ export default function CaseStudyPage({ slug }: { slug: string }) {
         <Sections items={project.outcome} startDelay={1} />
         <p className="case-next" data-reveal="fade-up">
           <span className="eyebrow">Next project</span>
-          <a href={`#/case/${next.slug}`} className="text-link">
+          <a href={`/case/${next.slug}/`} className="text-link">
             {next.title}
           </a>
         </p>

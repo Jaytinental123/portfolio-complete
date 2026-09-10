@@ -58,7 +58,7 @@ export default function ContactPage() {
             <a href={profile.youtube} className="btn" target="_blank" rel="noopener">
               YouTube
             </a>
-            <a href="#/cv" className="btn">
+            <a href="/cv/" className="btn">
               View CV
             </a>
           </div>
