@@ -3,7 +3,7 @@
 import { profile, caseStudies, getProject } from "./data";
 
 // The one true address of the site.
-export const SITE_URL = "https://joyomowaye.com";
+export const SITE_URL = "https://www.joyomowaye.com";
 
 // Social preview image, generated at build time by seo-pages.ts.
 export const OG_IMAGE_PATH = "/assets/og/joy-omowaye-og.jpg";
