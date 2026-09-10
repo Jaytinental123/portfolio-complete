@@ -1,0 +1,32 @@
+Please make ONLY the exact changes below. Do not change any design, text, layout or styling, and do not touch anything inside src/imports.
+
+1. Create three new files and leave them empty (I will paste their contents myself):
+   - seo-pages.ts   (in the project root, next to vite.config.ts)
+   - vercel.json    (in the project root)
+   - src/seo.ts
+
+2. In these 11 files, change the internal links from "#/" style to normal paths:
+   src/components/Nav.tsx, src/components/HeroStage.tsx, src/components/SpeakingGalleryCarousel.tsx,
+   src/components/InteractiveGrid.tsx, src/components/Carousel.tsx, src/pages/HomePage.tsx,
+   src/pages/WorkPage.tsx, src/pages/AboutPage.tsx, src/pages/CVPage.tsx, src/pages/ContactPage.tsx,
+   src/pages/CaseStudyPage.tsx
+
+   Exact replacements:
+   "#/home"     becomes  "/"
+   "#/work"     becomes  "/work/"
+   "#/about"    becomes  "/about/"
+   "#/cv"       becomes  "/cv/"
+   "#/contact"  becomes  "/contact/"
+   `#/case/${project.slug}`  becomes  `/case/${project.slug}/`
+   `#/case/${p.slug}`        becomes  `/case/${p.slug}/`
+   `#/case/${next.slug}`     becomes  `/case/${next.slug}/`
+
+3. In src/data.ts, change every image path that starts with "assets/ so it starts with "/assets/
+   (add a leading slash). Example: "assets/photos/joy-full.jpg" becomes "/assets/photos/joy-full.jpg".
+   There are 24 of them.
+
+4. Delete the file public/sitemap.xml (the sitemap is now generated automatically during the build).
+
+Do NOT edit src/App.tsx, index.html, vite.config.ts or public/robots.txt. I will replace those myself.
+
+When you are done, list every file you changed.
