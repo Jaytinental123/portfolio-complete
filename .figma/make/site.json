@@ -1,8 +1,8 @@
 {
-  "title": "My porfolio...",
-  "description": "Track and visualize project progress by cloning GitHub repositories, enabling users to monitor development milestones and collaborate effectively.",
+  "title": "Joy Omowaye | Lead Product Designer",
+  "description": "Joy Omowaye is a Lead Product Designer with 5+ years designing digital products across EdTech, SaaS, FinTech, and e-commerce. Currently at Prooval.",
   "robots": {
-    "index": false
+    "index": true
   },
   "accessibility": {
     "addBypassLinks": false,

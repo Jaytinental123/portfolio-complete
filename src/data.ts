@@ -153,13 +153,13 @@ export const profile: Profile = {
       quote:
         "Joy understood our business surprisingly quickly. She owned the design decisions and delivered excellently well, one of the best I have worked with.",
       name: "TMAK",
-      role: "Screws & Spanners",
+      role: "Founder, Screws & Spanners",
     },
     {
       quote:
         "Zippro Management System went from a 1990s-looking UI to a very modern and seamless user experience. All our schools have given great feedback since we transitioned to the new UX. Joy picked up all the complex flows and simplified them, and I highly recommend her.",
       name: "Matthew",
-      role: "ZSMS",
+      role: "CEO, ZSMS",
     },
     {
       quote:
@@ -170,7 +170,7 @@ export const profile: Profile = {
     {
       quote:
         "I am impressed by how articulate Joy is when it comes to presenting her ideas with clarity. Glad to work with her.",
-      name: "Director",
+      name: "Manager",
       role: "Providus Bank",
     },
     {
