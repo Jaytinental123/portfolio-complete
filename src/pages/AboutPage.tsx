@@ -45,10 +45,10 @@ export default function AboutPage() {
         <div className="about-content" data-reveal="fade-left" data-delay="1">
           <h2>Who I am</h2>
           <p>
-            I&apos;m a Lead Product Designer at Prooval with experience shaping digital products
-            across EdTech, SaaS, FinTech, and e-commerce. I specialise in data-driven design,
-            product strategy, and UX research helping teams build intuitive, scalable experiences
-            across the UK, US, and international markets.
+            Joy Omowaye is a Lead Product Designer at Prooval with experience shaping digital
+            products across EdTech, SaaS, FinTech, and e-commerce. I specialise in data-driven
+            design, product strategy, and UX research, helping teams build intuitive, scalable
+            experiences across the UK, US, and international markets.
           </p>
           <p>
             I collaborate closely with engineers and founders to move products from early concept

@@ -8,6 +8,17 @@ import CVPage from "./pages/CVPage";
 import ContactPage from "./pages/ContactPage";
 import CaseStudyPage from "./pages/CaseStudyPage";
 import { useScrollReveal } from "./hooks/useScrollReveal";
+import { getProject } from "./data";
+
+const BASE = "Joy Omowaye | Lead Product Designer";
+
+const PAGE_TITLES: Record<string, string> = {
+  home: BASE,
+  work: "Work & Case Studies — Joy Omowaye, Product Designer",
+  about: "About Joy Omowaye — Lead Product Designer",
+  cv: "CV — Joy Omowaye, Product Designer",
+  contact: "Contact Joy Omowaye — Product Designer",
+};
 
 type Route = "home" | "work" | "about" | "cv" | "contact" | "case";
 
@@ -48,6 +59,17 @@ export default function App() {
   }, []);
 
   useScrollReveal(route + (slug || ""));
+
+  useEffect(() => {
+    if (route === "case" && slug) {
+      const project = getProject(slug);
+      document.title = project
+        ? `${project.title} Case Study — Joy Omowaye, Product Designer`
+        : BASE;
+    } else {
+      document.title = PAGE_TITLES[route] || BASE;
+    }
+  }, [route, slug]);
 
   const navPage = route === "case" ? "work" : route;
 
