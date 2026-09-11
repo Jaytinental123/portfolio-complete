@@ -2,11 +2,11 @@ import { useEffect, useState } from "react";
 import { profile } from "../data";
 
 const navItems = [
-  { href: "/", label: "Home", id: "home" },
-  { href: "/work/", label: "Work", id: "work" },
-  { href: "/about/", label: "About", id: "about" },
-  { href: "/cv/", label: "CV", id: "cv" },
-  { href: "/contact/", label: "Contact", id: "contact" },
+  { href: "#/home", label: "Home", id: "home" },
+  { href: "#/work", label: "Work", id: "work" },
+  { href: "#/about", label: "About", id: "about" },
+  { href: "#/cv", label: "CV", id: "cv" },
+  { href: "#/contact", label: "Contact", id: "contact" },
 ];
 
 export default function Nav({ activePage }: { activePage: string }) {
@@ -24,7 +24,7 @@ export default function Nav({ activePage }: { activePage: string }) {
   return (
     <header className={`site-nav${scrolled ? " is-scrolled" : ""}`}>
       <div className="nav-inner container">
-        <a href="/" className="logo">{profile.name}</a>
+        <a href="#/home" className="logo">{profile.name}</a>
         <ul className="nav-links">
           {navItems.map((item) => (
             <li key={item.id}>

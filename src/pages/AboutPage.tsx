@@ -71,11 +71,11 @@ export default function AboutPage() {
 
           <h2>Let&apos;s connect</h2>
           <p>
-            <a href="/contact/" className="text-link">
+            <a href="#/contact" className="text-link">
               Send me an email
             </a>{" "}
             or view my{" "}
-            <a href="/cv/" className="text-link">
+            <a href="#/cv" className="text-link">
               full CV
             </a>
             .
@@ -137,8 +137,8 @@ export default function AboutPage() {
             data-delay="2"
             style={{ color: "var(--text-muted)", fontSize: "0.9rem", maxWidth: "56ch", marginBottom: 24 }}
           >
-            Invited to judge alongside Salem King, Seye Bandele (PaidHR), and Joshua Chibueze
-            (PiggyVest). Participants built solutions spanning women&apos;s health, estate management,
+            Invited to judge at the Airtel × 3MTT NextGen Knowledge Showcase &amp; Awards.
+            Participants built solutions spanning women&apos;s health, estate management,
             and legal document simplification. Top 3 teams awarded laptops and tablets.
           </p>
         </div>
@@ -241,7 +241,7 @@ export default function AboutPage() {
           <div className="recognition-card">
             <span className="recognition-tag">Industry</span>
             <p className="recognition-body">
-              Judge at Airtel × 3MTT NextGen Knowledge Showcase alongside Salem King, Seye Bandele (PaidHR), Joshua Chibueze (PiggyVest), and Mayowa Adeosun.
+              Invited to judge at the Airtel × 3MTT NextGen Knowledge Showcase &amp; Awards.
             </p>
             <span className="recognition-source">NextGen by Airtel &amp; 3MTT · April 2026</span>
           </div>

@@ -100,7 +100,7 @@ function ProjectCard({
             )}
             <div className="panel-actions">
               {isCase && (
-                <a href={`/case/${project.slug}/`} className="btn btn-primary">
+                <a href={`#/case/${project.slug}`} className="btn btn-primary">
                   Read the case study
                 </a>
               )}

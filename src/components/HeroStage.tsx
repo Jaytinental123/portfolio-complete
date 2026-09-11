@@ -89,7 +89,7 @@ export default function HeroStage() {
           </text>
         </svg>
         <div className="hero-stamp-center">
-          <a href="/contact/" className="hero-stamp-arrow" aria-label="Contact me">
+          <a href="#/contact" className="hero-stamp-arrow" aria-label="Contact me">
             <svg
               width="15"
               height="15"

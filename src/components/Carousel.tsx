@@ -28,7 +28,7 @@ export default function Carousel({ projects }: { projects: Project[] }) {
           {projects.map((p, i) => (
             <a
               key={p.slug}
-              href={`/case/${p.slug}/`}
+              href={`#/case/${p.slug}`}
               className={`carousel-item carousel-item--${getPos(i)}`}
             >
               <div className="carousel-item-inner">

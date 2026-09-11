@@ -186,7 +186,7 @@ export default function HomePage() {
             </h1>
             <p className="hero-body">{profile.headline}</p>
             <div className="hero-ctas">
-              <a href="/work/" className="btn-hero-primary">
+              <a href="#/work" className="btn-hero-primary">
                 View my work
                 <span className="btn-hero-icon">
                   <svg
@@ -201,7 +201,7 @@ export default function HomePage() {
                   </svg>
                 </span>
               </a>
-              <a href="/contact/" className="btn-hero-secondary">
+              <a href="#/contact" className="btn-hero-secondary">
                 Hire me
               </a>
             </div>
@@ -250,7 +250,7 @@ export default function HomePage() {
             <p className="eyebrow">Explore</p>
             <h2>Selected case studies</h2>
           </div>
-          <a href="/work/" className="text-link">
+          <a href="#/work" className="text-link">
             See all work
           </a>
         </div>
@@ -277,7 +277,7 @@ export default function HomePage() {
             <p className="eyebrow">Speaking</p>
             <h2 className="section-title" style={{ margin: "4px 0 0" }}>Talks &amp; conferences</h2>
           </div>
-          <a href="/about/" className="sg-view-more">
+          <a href="#/about" className="sg-view-more">
             View more
             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
               <path d="M5 12h14M12 5l7 7-7 7" />

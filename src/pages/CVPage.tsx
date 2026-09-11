@@ -14,7 +14,7 @@ export default function CVPage() {
       "Communication", "Leadership", "Collaboration", "Time Management",
       "Critical Thinking", "Problem Solving", "Attention to Detail",
     ],
-    tools: ["Figma", "FigJam", "Miro", "Notion", "Jira"],
+    tools: ["Figma", "FigJam", "Miro", "Notion", "Jira", "Claude AI", "ChatGPT", "Figma Make"],
   };
 
   return (
@@ -23,7 +23,7 @@ export default function CVPage() {
         <p className="eyebrow">CV</p>
         <h1>Joy Omowaye</h1>
         <p className="lead">
-          Product Designer &amp; Design Leader · 5+ years · UK, US &amp; international markets
+          Lead Product Designer · Team Lead, Ogun Digital Summit · 5+ years · UK, US &amp; international markets
         </p>
       </header>
 
@@ -52,7 +52,7 @@ export default function CVPage() {
             <a href={profile.linkedin} target="_blank" rel="noopener">LinkedIn ↗</a>
             <a href={profile.behance} target="_blank" rel="noopener">Behance ↗</a>
             <a href={profile.youtube} target="_blank" rel="noopener">YouTube ↗</a>
-            <a href="/work/">Portfolio ↗</a>
+            <a href="#/work">Portfolio ↗</a>
           </div>
 
           <div style={{ marginTop: 20, display: "flex", flexDirection: "column", gap: 8 }}>
@@ -97,14 +97,13 @@ export default function CVPage() {
           <section className="cv-block" data-reveal="fade-up">
             <h2>Professional Summary</h2>
             <p style={{ color: "var(--text-soft)", margin: 0, lineHeight: 1.7 }}>
-              Product Designer with 5+ years of experience designing and delivering digital products
-              across SaaS, fintech, marketplaces, and emerging technology platforms. Specialises in
-              designing secure, user-centred experiences for financial transactions, digital commerce,
-              and scalable products turning complex ideas into intuitive solutions that support user
-              needs and business growth. Work covers web and mobile applications used across the UK, US,
-              and international markets. Collaborates closely with engineers and founders from early
-              concept through to production release. Actively contributes to the design community through
-              mentorship, speaking, judging, and educational content.
+              Lead Product Designer with 5+ years of experience designing and shipping digital products
+              across FinTech, SaaS, EdTech, marketplaces and emerging technology platforms. Experienced
+              in taking products from research and problem definition through interaction design,
+              prototyping, implementation and launch. Works closely with engineers and founders to
+              translate complex requirements into intuitive, production-ready experiences. Actively uses
+              AI tools across research, requirement analysis, rapid prototyping, documentation and
+              development to improve the speed and quality of design output.
             </p>
           </section>
 
@@ -114,7 +113,7 @@ export default function CVPage() {
 
             <div className="cv-entry" data-reveal="fade-up" data-delay="1">
               <div className="cv-entry-head">
-                <h3>Founding Product Designer</h3>
+                <h3>Lead Product Designer</h3>
                 <span className="cv-badge">Current</span>
               </div>
               <p className="meta">Prooval (Formerly Hackthejobs) · Nigeria · Jan 2024 to Present</p>
@@ -222,7 +221,8 @@ export default function CVPage() {
               </div>
               <p className="meta">April 2026 · Nigeria</p>
               <ul>
-                <li>Invited to judge alongside Salem King, Seye Bandele (PaidHR), and Joshua Chibueze (PiggyVest).</li>
+                <li>Invited to judge at the Airtel × 3MTT NextGen Knowledge Showcase &amp; Awards.</li>
+                <li>Participants built solutions spanning women&apos;s health, estate management, and legal document simplification. Top 3 teams awarded laptops and tablets.</li>
               </ul>
             </div>
             <div className="cv-entry">
@@ -306,7 +306,7 @@ export default function CVPage() {
               ))}
             </div>
             <p style={{ marginTop: 16 }}>
-              <a href="/work/" className="text-link">View full portfolio →</a>
+              <a href="#/work" className="text-link">View full portfolio →</a>
             </p>
           </section>
         </div>

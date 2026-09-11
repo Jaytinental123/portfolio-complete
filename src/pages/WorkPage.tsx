@@ -111,7 +111,7 @@ function ListingCard({ project, index }: { project: Project; index: number }) {
   return (
     <a
       className="listing-card"
-      href={project.externalUrl || project.behanceUrl || "/work/"}
+      href={project.externalUrl || project.behanceUrl || "#/work"}
       target={project.externalUrl || project.behanceUrl ? "_blank" : undefined}
       rel="noopener"
       style={{ "--tile": tile } as React.CSSProperties}
